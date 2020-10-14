@@ -1,0 +1,30 @@
+*{margin:0;padding:0;}
+body{font-family:arial;font-size:14px;line-height:20px;background:url(img/background.png) repeat;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;margin-bottom:15px;}
+a {color:yellow;text-decoration:none}
+a:hover {text-decoration:none}
+
+.stracture {width:960px;margin:0 auto;display:block}
+.floatleft {float:left} 
+.floatright {float:right} 
+.fix {overflow:hidden;height:20px;}
+.header{background:#B94529;}
+.logo img{width:235px;height:40px;}
+.scial_icon{    background: none repeat scroll 0% 0% rgb(232, 232, 255);
+    padding: 10px;
+    margin-left: 870px;
+    margin-right: 10px;
+    margin-top: 8px;
+    border-radius: 5px;
+}
+.mainmenu {padding-top:30px;background:#7B6353;}
+.mainmenu ul{margin-left: 18px;padding:0;list-style:none}
+.mainmenu ul li{float:left;margin-right:10px;}
+.mainmenu ul li a{display:block;padding:5px 10px;font-weight:bold;text-transform:uppercase;color:#000;}
+.mainmenu ul li a:hover{background:#E04343;color:#fff;border-radius:5px}
+.search{margin-right: 10px;margin-bottom: 10px;margin-top: -19;}
+.search input{padding:14px;}
+.main_content{background:#000000;}
+.main_content p{text-align:justify;margin-top:10px;margin-bottom;10px;margin-left:12px;margin-right:20px;}
+.footer{background:#8D7C8B;}
+.footer p{text-align:center;margin-top:17px;margin-bottom:17px;}

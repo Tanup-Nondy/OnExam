@@ -1,0 +1,35 @@
+<html>
+<body>
+<p id="d"></p>
+<p id="d1"></p>
+<p id="time"></p>
+<script>
+var dt=Date.parse("February 09,2017,12:00 PM");
+var dn=new Date(); 
+var t=dn.getTime(); 
+document.getElementById("d").innerHTML = dt;
+document.getElementById("d1").innerHTML = t;
+var dif=dt-t;
+var m=0;
+var s=0;
+var h=0;
+var t_s;
+t_s=parseInt(dif/1000);
+var rem=t_s-(2*60*60);
+function check(){
+document.getElementById("time").innerHTML=h+'hours '+m+'minutes '+s+'seconds';
+ 
+t_s=t_s-1;
+if(t_s==rem){
+
+}
+h=parseInt(t_s/3600);
+var min=t_s-(h*3600);
+m=parseInt(min/60);
+s=(min%60);
+setTimeout("check()",1000);
+}
+setTimeout("check()",1000);
+</script>
+</body>
+</html>
